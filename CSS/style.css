@@ -1,0 +1,60 @@
+.active_1 {
+    background-color: blue;
+}
+
+.active_2 {
+    background-color: red;
+}
+
+.non_active {
+    background-color: transparent;
+}
+
+button {
+    width: 100%;
+    padding: 10px 15px;
+    color: white;
+    background-color: #000;
+    box-shadow: inset 1px 1px 10px white;
+    border-radius: 30px;
+}
+
+input {
+    text-align: center;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    background: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    flex-wrap: wrap-reverse;
+    margin: auto;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#userControl {
+    text-align: center;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
